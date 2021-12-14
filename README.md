@@ -165,11 +165,6 @@ If everything is okay, then the API should be up and running.
 
 To test the cloud API, again run `predict_test.py` from locally using the cloud API URL.
 
-Notes:
-- Pythonanywhere instance has almost all the necessary packages installed. So, we don't need to install packages manually.
-- Some packages are not up to date. So, there might be compatibility issues, especially with Scikit-Learn and XGBoost.
-For example changing `dv.get_feature_names_out()` to `dv.get_feature_names()` for lower versions of Scikit-Learn.
-
 ## Build Docker Image
 
 To build a Docker image:
