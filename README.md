@@ -112,6 +112,22 @@ Install the dependencies:
 pip install -r requirements.txt
 ```
 
+## Build Docker Image
+
+To build a Docker image:
+
+```
+docker build -t bank-marketing-system .
+```
+
+TO run the image as a container:
+
+```
+docker run --rm -it -p 9696:9696 bank-marketing-system:latest
+```
+
+To test the prediction API running in docker, run `predict_test.py` locally.
+
 ## Run the Jupyter Notebook
 
 Run Jupiter notebook using the following command assuming we are inside the project directory:
@@ -164,20 +180,3 @@ Then open a terminal and run `train.py` and `predict.py` files. Finally, reload 
 If everything is okay, then the API should be up and running.
 
 To test the cloud API, again run `predict_test.py` from locally using the cloud API URL.
-
-## Build Docker Image
-
-To build a Docker image:
-
-```
-docker build -t bank-marketing-system .
-```
-
-TO run the image as a container:
-
-```
-docker run --rm -it -p 9696:9696 bank-marketing-system:latest
-```
-
-To test the prediction API running in docker, again run `predict_test.py` locally.
-
