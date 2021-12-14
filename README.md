@@ -1,9 +1,7 @@
-# MLProject-Capstone-Project
-This project impelemented for Machine Learning Zoomcamp
+# Repository of Bank Marketing System
+This project impelemented for capstone project of Machine Learning Zoomcamp
 
-# Capstone Project - Bank Marketing System
-
-## Motivation
+## Context
 
 The data is related with direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed. Based on client data, we can estimate probability of making deposit and decide if phone call to the client make sense. So the classification goal is to predict if the client will subscribe a term deposit (variable y).
 
