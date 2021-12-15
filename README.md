@@ -48,7 +48,7 @@ http://archive.ics.uci.edu/ml/datasets/Bank+Marketing
 The following files are included in the repo:
 
 ```
-heart-failure-prediction
+Bank-Marketing-System
 ├── Dockerfile <- Docker file with specifications of the docker container
 ├── Pipfile <- File with names and versions of packages installed in the virtual environment
 ├── Pipfile.lock <- Json file that contains versions of packages, and dependencies required for each package
